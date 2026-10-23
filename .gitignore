@@ -1,0 +1,32 @@
+# KiCad
+*-backups/
+*.bak
+*.kicad_prl
+fp-info-cache
+_autosave-*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# PlatformIO / Arduino build output
+.pio/
+build/
+
+# Secrets
+.env
+secrets.h
+credentials*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
